@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #00000069 16.62%, #0307fa 85.61%);
+    text-align:center;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction:row;
+    align-items:center ;
+}
+.conteudo-principal-escrito{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color:#c5c1b9;
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
